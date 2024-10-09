@@ -1,0 +1,66 @@
+	--Declarações de Variáveis--
+
+var: Pode ser chamada independente do nível de escopo!
+
+let: Pode ser chamada apenas no mesmo nível de escopo ou em níveis internos!
+
+const: Cria variáveis que não podem ter o valor alterado!
+
+	--OPERAÇÕES MATEMÁTICAS--
+
+Se fizermos: num01++ ou num01+=, ele adiciona 1 à variável num01 (pós-incremento ou adição).
+
+Se fizermos: num01-- ou num01-=, ele remove 1 da variável num01 (pós-decremento ou subtração).
+
+(Observação: recomenda-se usar += ou -= para adicionar ou subtrair valores diferentes de 1.)
+
+Se fizermos: num01 / num02, ele irá dividir num01 por num02.
+
+Se fizermos: num01 % num02, ele irá entregar o resto da divisão entre num01 e num02.
+
+	--OPERADORES RELACIONAIS--
+		
+
+O símbolo "!" antes de uma comparação entrega o resultado negado da expressão.
+
+	--OPERADORES LÓGICOS--
+
+& -> Operador de "E" lógico: necessário que ambos os bits sejam 1 para produzir um resultado 1.
+| -> Operador de "OU" lógico: necessário que pelo menos um bit seja 1 para produzir um resultado 1.
+
+	--OPERADORES DE DESLOCAMENTO--
+
+<< ou >> move a quantidade desejada de bits para a esquerda (multiplicação por potências de 2) ou para a direita (divisão por potências de 2).
+
+	--OPERADORES DE INCREMENTO--
+
+console.log(number++) : pós-incremento (o valor é impresso antes de ser incrementado).
+console.log(++number) : pré-incremento (o valor é incrementado e depois impresso).
+
+	--OPERADORES DE CONCATENAÇÃO--
+
+console.log(n1 + n2) : Vai imprimir o valor de n1 e n2 juntos, não é necessário usar "".
+
+	--EXPRESSÕES TERNÁRIAS--
+
+Estrutura:
+	teste lógico ? se verdadeiro : se falso;
+
+Exemplo:
+	
+	let numero = 8;
+	let resultado = (numero > 5 ? "VERDADEIRO" : "FALSO");
+	console.log(resultado);
+
+	--OPERADOR SPREAD--
+
+O operador spread `...` em JavaScript é usado para espalhar o elemenots.
+
+um exemplo simples de uso do operador spread para combinar dois arrays em um novo array:
+
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+
+const newArray = [...array1, ...array2];
+
+console.log(newArray); // Saída: [1, 2, 3, 4, 5, 6]

@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: block;
+    
+
+}
+
+header {
+    background-color: black;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid red;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
+                -5px -5px 15px rgba(255, 255, 255, 0.603);
+}
+
+
+#app_icon {
+    width: 75px;
+    height: 50px;
+    margin: 10px;
+}
+
+#tittle_header {
+    color: white;
+    width: 280px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: rgb(10, 10, 10);
+    width: 800px;
+    height: max-content;
+    margin: 0 auto;
+    padding: 5px 10px 3px 10px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    
+}
+
+#chat_box {
+    height: 497px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.box_sent {
+    background-color: red;
+    width: max-content;
+    height: 30px;
+    padding: 5px 40px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box_sent_right {
+    background-color: red;
+    width: max-content;
+    height: 30px;
+    padding: 5px 40px;
+    margin: 10px 10px 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lab_name {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.lab_msg {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+
+#box_input {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input_name {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 52px;
+    margin-right: 10px;
+    border: 2px solid red;
+    display: block;
+}
+
+#input_msg {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 14px 12px 10px 12px;
+    border: 2px solid red;
+    display: block;
+    width: 335px;
+}
+
+#button_send {
+    background-color: red;
+    padding: 17px 15px;
+    margin-left: 8px;
+    border: 2px solid black;
+    font-size: 1.1em;
+}
+
+#button_send:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
